@@ -1,0 +1,256 @@
+{
+    "title": "Example karabiner configuration file for a Razer Naga X and VSCode",
+    "rules": [
+        {
+            "description": "New Window + Open...",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "1"
+                    },
+                    "to": [
+                        {
+                            "key_code": "n",
+                            "modifiers": [
+                                "left_shift",
+                                "left_command"
+                            ]
+                        },
+                        {
+                            "key_code": "o",
+                            "modifiers": [
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Select All Occurrences",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "2"
+                    },
+                    "to": [
+                        {
+                            "key_code": "l",
+                            "modifiers": [
+                                "left_shift",
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Add Cursors to Line Ends",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "3"
+                    },
+                    "to": [
+                        {
+                            "key_code": "i",
+                            "modifiers": [
+                                "left_shift",
+                                "left_option"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Expand Selection to Next Layer",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "5"
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": [
+                                "left_shift",
+                                "left_control",
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Shrink Selection to Previous Layer",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "6"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": [
+                                "left_shift",
+                                "left_control",
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Split Editor",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "7"
+                    },
+                    "to": [
+                        {
+                            "key_code": "7",
+                            "modifiers": [
+                                "left_shift",
+                                "left_control",
+                                "left_option",
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Copy Relative Path",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "8"
+                    },
+                    "to": [
+                        {
+                            "key_code": "c",
+                            "modifiers": [
+                                "left_shift",
+                                "left_option",
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Comment Lines",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "product_id": 150
+                                }
+                            ]
+                        }
+                    ],
+                    "from": {
+                        "key_code": "9"
+                    },
+                    "to": [
+                        {
+                            "key_code": "7",
+                            "modifiers": [
+                                "left_shift",
+                                "left_command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
