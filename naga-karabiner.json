@@ -26,14 +26,29 @@
                                 "left_shift",
                                 "left_command"
                             ]
-                        },
-                        {
-                            "key_code": "o",
-                            "modifiers": [
-                                "left_command"
-                            ]
                         }
-                    ]
+                    ],
+                    "to_delayed_action": {
+                        "to_if_invoked": [
+                            {
+                                "key_code": "o",
+                                "modifiers": [
+                                    "left_command"
+                                ]
+                            }
+                        ],
+                        "to_if_canceled": [
+                            {
+                                "key_code": "o",
+                                "modifiers": [
+                                    "left_command"
+                                ]
+                            }
+                        ]
+                    },
+                    "parameters": {
+                        "basic.to_delayed_action_delay_milliseconds": 2000
+                    }
                 }
             ]
         },
